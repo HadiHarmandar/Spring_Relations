@@ -2,14 +2,18 @@ package com.cydeo.mentor.entity;
 
 import lombok.Data;
 
+import javax.persistence.Entity;
+import javax.persistence.ManyToOne;
+
 @Data
+@Entity
 public class Product extends BaseEntity {
 
     private String name;
     private double price;
 
-/*  This field will be used in STEP-3
+    @ManyToOne
     private Category category;
 
- */
+
 }

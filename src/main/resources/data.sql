@@ -1,8 +1,14 @@
 insert into role(name)
-values ('ROOT'),
-       ('ADMIN'),
-       ('MANAGER'),
-       ('EMPLOYEE');
+values ('ROOT');
+
+insert into role(name)
+values ('ADMIN');
+
+insert into role(name)
+values ('MANAGER');
+
+insert into role(name)
+values ('EMPLOYEE');
 
 insert into state(state_code, state_name)
 values ('VA', 'Texas');
